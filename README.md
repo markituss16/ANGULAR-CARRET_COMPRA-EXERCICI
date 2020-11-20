@@ -1,3 +1,1 @@
-# angular-2vaxtw-x9gfk4
-
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-2vaxtw-x9gfk4)
+Exercici proposat a clase per a fer funcionar un carret de compra.
