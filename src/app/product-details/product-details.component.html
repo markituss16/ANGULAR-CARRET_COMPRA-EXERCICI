@@ -2,7 +2,8 @@
 
 <div *ngIf="product">
 	<h3>{{ product.name }}</h3>
-	<h4>{{ product.price | currency }}</h4>
+	<h4>{{ product.price | currency:'EUR' }}</h4>
 	<!--Currency es un pipe per a posar les dades com a tipus currency-->
 	<p>{{ product.description }}</p>
+	<button (click)="afegirCarret(product)">Afegeix al carret</button>
 </div>
